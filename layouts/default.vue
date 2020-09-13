@@ -28,9 +28,7 @@
 
     <v-app-bar
       :clipped-left="clipped"
-      shrink-on-scroll
       color="white"
-      prominent
       fixed
       app
     >

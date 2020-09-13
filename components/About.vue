@@ -22,13 +22,13 @@
         Para nosotros cada una de ellas es una obra de arte y representa un nuevo desafio para continuar construyendo nuestro futuro junto a ustedes.
       </v-responsive>
 
-      <v-avatar
+<!--      <v-avatar
         class="elevation-12 mb-12"
         size="128"
 
       >
         <v-img contain :src="require('~/assets/img/craftsmen.jpg')"></v-img>
-      </v-avatar>
+      </v-avatar>-->
 
       <div></div>
 
