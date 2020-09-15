@@ -34,10 +34,10 @@
             >
               <v-row>
                 <v-col class="flex-grow-0 flex-shrink-0">
-                  <v-icon color="orange">mdi-format-quote-open</v-icon>
+                  <v-icon color="primary">mdi-format-quote-open</v-icon>
                 </v-col>
                 <v-col class="flex-grow-1 flex-shrink-0">
-                  {{text}}
+                  {{ text }}
                 </v-col>
               </v-row>
             </v-card-text>
@@ -61,26 +61,26 @@
 </template>
 
 <script>
-  export default {
-    name: "Testimonials",
-    data() {
-      return {
-        features: [
-          {
-            author: 'Carlos Gutti',
-            who: 'Director de Luminense',
-            text: 'Las complejidades y desafíos que DICEOS superó con éxito en nuestro nombre incluyen obstáculos sustanciales en los permisos, apoyo a la coordinación y selección de todos los materiales de diseño y acabado, y la dificultad de integrar estructuras nuevas y existentes.',
-          },
-          {
-            author: 'El hijo de Carlos Gutti',
-            who: 'Hijo del director de Luminense',
-            text: 'Las complejidades y desafíos que DICEOS superó con éxito en nuestro nombre incluyen obstáculos sustanciales en los permisos, apoyo a la coordinación y selección de todos los materiales de diseño y acabado, y la dificultad de integrar estructuras nuevas y existentes.',
-          },
+export default {
+  name: "Testimonials",
+  data() {
+    return {
+      features: [
+        {
+          author: 'Carlos Gutti',
+          who: 'Director de Luminense',
+          text: 'Las complejidades y desafíos que DICEOS superó con éxito en nuestro nombre incluyen obstáculos sustanciales en los permisos, apoyo a la coordinación y selección de todos los materiales de diseño y acabado, y la dificultad de integrar estructuras nuevas y existentes.',
+        },
+        {
+          author: 'El hijo de Carlos Gutti',
+          who: 'Hijo del director de Luminense',
+          text: 'Las complejidades y desafíos que DICEOS superó con éxito en nuestro nombre incluyen obstáculos sustanciales en los permisos, apoyo a la coordinación y selección de todos los materiales de diseño y acabado, y la dificultad de integrar estructuras nuevas y existentes.',
+        },
 
-        ],
-      }
+      ],
     }
   }
+}
 </script>
 
 <style scoped>

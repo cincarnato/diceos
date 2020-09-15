@@ -1,6 +1,8 @@
 <template>
   <div class="text-center">
-    <v-img :src="require('~/assets/img/plane.jpg')">
+    <v-img
+      gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+      :src="require('~/assets/img/plane.jpg')">
       <v-theme-provider>
         <v-container fill-height>
           <v-row
