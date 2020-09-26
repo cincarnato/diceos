@@ -13,6 +13,8 @@
 
       <about></about>
 
+      <carousel></carousel>
+
       <services></services>
 
       <stats></stats>
@@ -33,9 +35,11 @@ import Services from "~/components/Services";
 import MainImage from "~/components/MainImage";
 import Contact from "~/components/Contact";
 import Testimonials from "~/components/Testimonials";
+import Carousel from "~/components/Carousel";
 
 export default {
   components: {
+    Carousel,
     Testimonials,
     Contact,
     MainImage,

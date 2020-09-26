@@ -38,6 +38,9 @@
       <v-btn  text large  @click="$vuetify.goTo('#about-me')">
         Nosotros
       </v-btn >
+      <v-btn text large  @click="$vuetify.goTo('#carousel')">
+        Galeria
+      </v-btn>
       <v-btn text large  @click="$vuetify.goTo('#services')">
         Servicios
       </v-btn>
