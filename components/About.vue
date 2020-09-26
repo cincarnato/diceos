@@ -18,7 +18,7 @@
         class="mx-auto title font-weight-light mb-8"
         max-width="720"
       >
-        Desde hace mas de 20 años participamos en la contrucción de escuelas, caminos, espacios verdes, asas y todo tipo de obras civiles.
+        Contamos con una larga trayectoria y participacion en la contrucción de escuelas, caminos, espacios verdes, casas y todo tipo de obras civiles.
         Para nosotros cada una de ellas es una obra de arte y representa un nuevo desafio para continuar construyendo nuestro futuro junto a ustedes.
       </v-responsive>
 
