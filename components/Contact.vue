@@ -16,10 +16,10 @@
 
       <v-row class="flex-column">
         <v-col>
-          <strong>Email:</strong> diceosconstruc@gmail.com
+          <strong>Email:</strong> diceos@diceos.com.ar
         </v-col>
         <v-col>
-          <strong>Telefono:</strong> xxxxxxx
+          <strong>Telefono:</strong> +054(11) 56135286 / +054 (9) 2215447046
         </v-col>
       </v-row>
 
