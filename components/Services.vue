@@ -32,7 +32,9 @@
               v-text="title"
             ></v-card-title>
 
-            <v-card-text class="subtitle-1" v-text="text"></v-card-text>
+            <v-card-text class="subtitle-1"
+              ><b>{{ text }}</b></v-card-text
+            >
             <v-img
               v-if="img"
               :src="img"
@@ -67,7 +69,7 @@ export default {
           icon: "mdi-cube-outline",
           title: "Proyecto y visualizacion 3d",
           text: "",
-          img:  require('~/assets/img/gallery/3d.jpg'),
+          img: require("~/assets/img/gallery/3d.jpg"),
         },
         {
           icon: "mdi-shield-outline",
@@ -80,19 +82,19 @@ export default {
           icon: "mdi-store",
           title: "Desarrollo Inmobiliario",
           text: "",
-          img: require('~/assets/img/gallery/casa_2.jpg'),
+          img: require("~/assets/img/gallery/casa_2.jpg"),
         },
         {
           icon: "mdi-pine-tree",
           title: "Decoración y paisajismo",
           text: "",
-          img: require('~/assets/img/gallery/decoracion.jpg'),
+          img: require("~/assets/img/gallery/decoracion.jpg"),
         },
         {
           icon: "mdi-cable-data",
           title: "Extendido de fibra optica",
           text: "",
-          img: require('~/assets/img/gallery/fibra.jpg'),
+          img: require("~/assets/img/gallery/fibra.jpg"),
         },
       ],
     };
