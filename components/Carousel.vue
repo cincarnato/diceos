@@ -1,6 +1,12 @@
 <template>
   <section id="carousel">
-    <v-carousel :cycle="true" :interval="4000" :continuous="true">
+    <v-carousel 
+    :cycle="true" 
+    :interval="4000" 
+    :continuous="true"
+     delimiter-icon="mdi-minus"
+     height="700px"
+    >
       <v-carousel-item
         v-for="(item,i) in items"
         :key="i"
@@ -28,19 +34,19 @@
       return {
         items: [
           {
-            src: require('~/assets/img/gallery/desarrollo_disenio_vivienda_1.png'),
+            src: require('~/assets/img/gallery/casa_cons_1.jpg'),
             title: "Desarrollo y Diseño de Vivienda"
           },
           {
-            src: require('~/assets/img/gallery/desarrollo_disenio_vivienda_2.png'),
+            src: require('~/assets/img/gallery/casa_1.jpg'),
             title: "Desarrollo y Diseño de Vivienda"
           },
           {
-            src: require('~/assets/img/gallery/enripiado_2.png'),
+            src: require('~/assets/img/gallery/enripiado_5.jpg'),
             title: "Enripiado"
           },
           {
-            src: require('~/assets/img/gallery/enripiado_1.png'),
+            src: require('~/assets/img/gallery/enripiado_4.jpg'),
             title: "Enripiado"
           },
           {
@@ -48,12 +54,12 @@
             title: "Escuelas y Hospitales"
           },
           {
-            src: require('~/assets/img/gallery/perfilado_suelo.png'),
-            title: "Perfilado del suelo"
+            src: require('~/assets/img/gallery/suelo_1.jpg'),
+            title: "Asfaltado"
           },
           {
-            src: require('~/assets/img/gallery/viales_excavaciones.png'),
-            title: "Nivelacion vial y excavaciones"
+            src: require('~/assets/img/gallery/obras_1.jpg'),
+            title: ""
           },
           {
             src: require('~/assets/img/gallery/cubiertas_metalicas.png'),

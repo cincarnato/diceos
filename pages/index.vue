@@ -1,15 +1,7 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm10
-      md10
-    >
-     <main-image></main-image>
+  <v-layout column justify-center align-center>
+    <v-flex xs12 sm10 md10>
+      <main-image></main-image>
 
       <about></about>
 
@@ -22,14 +14,13 @@
       <testimonials></testimonials>
 
       <contact></contact>
-
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import Logo from "~/components/Logo.vue";
+import VuetifyLogo from "~/components/VuetifyLogo.vue";
 import About from "~/components/About";
 import Services from "~/components/Services";
 import MainImage from "~/components/MainImage";
@@ -46,7 +37,7 @@ export default {
     Services,
     About,
     Logo,
-    VuetifyLogo
-  }
-}
+    VuetifyLogo,
+  },
+};
 </script>
